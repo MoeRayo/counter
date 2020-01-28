@@ -1,0 +1,48 @@
+body{
+    background-color: #f6b3be;
+    margin: 0 auto;
+
+}
+div{
+    display: flex;
+    flex-flow: column wrap;
+    border: 3px dotted red;
+    width: 40%;
+    margin: 5rem auto;
+    text-align: center;
+    background-color: rgb(224, 195, 200);
+
+}
+h1{
+    font-size: 4rem;
+    font-family: monospace;
+    font-weight: 600;
+}
+p{
+    font-size: 12rem;
+    margin-top: -1rem;
+}
+
+/* for mobile */
+@media screen and (max-width:480px) and (min-width:299px) {
+    div{
+        width: 70%;
+        margin: 5rem auto;
+    }
+    h1{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+}
+
+/* for tablets */
+@media screen and (max-width:768px) and (min-width:480px) {
+    div{
+        width: 60%;
+    }
+    h1{
+        font-size: 4rem;
+    }
+
+}
+
